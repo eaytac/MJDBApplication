@@ -10,11 +10,17 @@ import java.util.List;
 
 public class VeritabaniIslemleri {
     
-    private static final String sunucuAdresi = "localhost";
+//    private static final String sunucuAdresi = "localhost";
+//    private static final String port = "5432";
+//    private static final String kullaniciAdi = "postgres";
+//    private static final String kullaniciSifre = "postgres";
+//    private static final String veritabani = "vektorel";
+    
+    private static final String sunucuAdresi = "hard-plum.db.elephantsql.com";
     private static final String port = "5432";
-    private static final String kullaniciAdi = "postgres";
-    private static final String kullaniciSifre = "postgres";
-    private static final String veritabani = "vektorel";
+    private static final String kullaniciAdi = "cezctruo";
+    private static final String kullaniciSifre = "Bw-9q6U4-av2VgayDplaccOWUqwMtgKi";
+    private static final String veritabani = "cezctruo";
     
     public boolean kayitEkle(String query) {
         try {
